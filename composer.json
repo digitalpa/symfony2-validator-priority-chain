@@ -1,0 +1,15 @@
+{
+    "name": "markwilson/symfony2-validator-priority-chain",
+    "description": "Prioritised chain of validator constraints in Symfony2 validator component",
+    "require": {
+        "symfony/validator": "2.2.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Wilson",
+            "email": "mark@89allport.co.uk"
+        }
+    ],
+    "minimum-stability": "dev"
+}
