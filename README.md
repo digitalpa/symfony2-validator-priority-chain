@@ -2,7 +2,7 @@
 
 Note: currently only works for validator component 2.2.x
 
-Prioritised chain of validator constraints in Symfony2 validator component.
+Prioritised chain of validator constraints in Symfony2 validator component. Adds the ability to stop further validation based on a queue on constraints. Example use case: validating variable is an array, then validate the array contains a key. Default Symfony validator component behaviour is to complete every validation constraint.
 
 ## Install
 
