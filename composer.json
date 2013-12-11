@@ -11,5 +11,10 @@
             "email": "mark@89allport.co.uk"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "MarkWilson\\": "lib/"
+        }
+    }
 }
