@@ -23,7 +23,7 @@ $queue = new \SplPriorityQueue();
 $queue->insert(new Assert\Type('array'), 2);
 $queue->insert(new Assert\NotBlank(), 1);
 
-$constraint = new PriorityChain($queue);
+$constraint = new PriorityChain(array('constraints' => $queue));
 
 $validator = Validation::createValidator();
 $validator->validateValue($value, $constraint);
